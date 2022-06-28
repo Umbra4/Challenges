@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Crafty+Girls&family=Grape+Nuts&family=Kalam:wght@300;400;700&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg{
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+article{
+    padding: 40px;
+    margin: auto;
+}
+.card{
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background: hsl(216, 50%, 16%);
+}
+img{
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+}
+.nft-name{
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+.nft-name:hover{
+    color: hsl(178, 100%, 50%);
+}
+.description{
+    padding: 5px;
+    font-size: 15px;
+    color: hsl(215, 33%, 58%);
+    text-align: justify;
+}   
+p.icon{
+    padding: 8px;
+    justify-content: space-between;
+}
+.eth{
+    width: 12px;
+}
+.Clock{
+    width: 20px;
+}
+span#ETH{
+    color: white;
+    cursor: pointer;
+}
+span#ETH:hover{
+    color: hsl(178, 100%, 50%);
+}
+span#clock{
+    color: hsl(215, 33%, 58%);
+}
+span{
+    padding: 10px;
+}
+img.avatar{
+    padding: 20px;
+    width: 100px;
+}
+.creator{
+    color: hsl(215, 33%, 58%);
+}
+p > a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+p > a:hover{
+    color: hsl(215, 33%, 58%);
+}
